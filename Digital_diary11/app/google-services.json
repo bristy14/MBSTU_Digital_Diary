@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "553289395733",
+    "firebase_url": "https://mbstu-digital-diary-default-rtdb.firebaseio.com",
+    "project_id": "mbstu-digital-diary",
+    "storage_bucket": "mbstu-digital-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553289395733:android:2f323cb03100fce36de81c",
+        "android_client_info": {
+          "package_name": "com.example.digital_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553289395733-v20phnjck629ji9fsarevkdpmiied40r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU-70kBQiSvOxeXoMsAc0vu1-rapGoO0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553289395733-v20phnjck629ji9fsarevkdpmiied40r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

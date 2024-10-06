@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Digital_diary"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- RegisterActivity and other activities -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".Cafeteria"
+            android:exported="false" />
+        <activity
+            android:name=".Educational_institution"
+            android:exported="false" />
+        <activity
+            android:name=".Sonali_bank"
+            android:exported="false" />
+        <activity
+            android:name=".Medical_center"
+            android:exported="false" />
+        <activity
+            android:name=".Central_library"
+            android:exported="false" />
+        <activity
+            android:name=".Proctor_office"
+            android:exported="false" />
+        <activity
+            android:name=".Register_office"
+            android:exported="false" />
+        <activity
+            android:name=".Cyber_center"
+            android:exported="false" />
+        <activity
+            android:name=".PGD_in_ict"
+            android:exported="false" />
+        <activity
+            android:name=".ICT_cell"
+            android:exported="false" />
+        <activity
+            android:name=".IQAC"
+            android:exported="false" />
+        <activity
+            android:name=".Journal_ofscience"
+            android:exported="false" />
+        <activity
+            android:name=".Research_cell"
+            android:exported="false" />
+        <activity
+            android:name=".MB_researchcenter"
+            android:exported="false" />
+        <activity
+            android:name=".Economics"
+            android:exported="false" />
+        <activity
+            android:name=".Physcis"
+            android:exported="false" />
+        <activity
+            android:name=".Statistics"
+            android:exported="false" />
+        <activity
+            android:name=".Math"
+            android:exported="false" />
+        <activity
+            android:name=".Chemistry"
+            android:exported="false" />
+        <activity
+            android:name=".Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".BMB"
+            android:exported="false" />
+        <activity
+            android:name=".BGE"
+            android:exported="false" />
+        <activity
+            android:name=".FTNS"
+            android:exported="false" />
+        <activity
+            android:name=".CPS"
+            android:exported="false" />
+        <activity
+            android:name=".ESRM"
+            android:exported="false" />
+        <activity
+            android:name=".English"
+            android:exported="false" />
+        <activity
+            android:name=".TE"
+            android:exported="false" />
+        <activity
+            android:name=".ICT"
+            android:exported="false" />
+        <activity
+            android:name=".CSE"
+            android:exported="false" />
+        <activity
+            android:name=".Fajitul_hall"
+            android:exported="false" />
+        <activity
+            android:name=".Rasel_hall"
+            android:exported="false" />
+        <activity
+            android:name=".Zahanara_hall"
+            android:exported="false" />
+        <activity
+            android:name=".Zia_hall"
+            android:exported="false" />
+        <activity
+            android:name=".Mujib_hall"
+            android:exported="false" />
+        <activity
+            android:name=".Alema_hall"
+            android:exported="false" />
+        <activity
+            android:name=".Mannan_hall"
+            android:exported="false" />
+        <activity
+            android:name=".Pro_vice"
+            android:exported="false" />
+        <activity
+            android:name=".Vice_chancellor"
+            android:exported="false" />
+        <activity
+            android:name=".Discipline_board"
+            android:exported="false" />
+        <activity
+            android:name=".Management_commitee"
+            android:exported="false" />
+        <activity
+            android:name=".Economic_commitee"
+            android:exported="false" />
+        <activity
+            android:name=".Science_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".Businessstudies_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".Art_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".Socialscience_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".Lifescience_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".Engineering_faculty"
+            android:exported="false" />
+        <activity
+            android:name=".academicboard"
+            android:exported="false" />
+        <activity
+            android:name=".regentboard"
+            android:exported="true" />
+        <activity
+            android:name=".list"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
